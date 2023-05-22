@@ -24,7 +24,7 @@ print('loaded adata in ',time.time()-st)
 print('filtered data: ',adata.shape)
 
 # specify dimensions by which to summarize the data
-cell = 'Subclass' # broad cell classes (e.g. Astro, Micro, Sst...)
+cell = 'Supertype (non-expanded)' # subtypes (e.g. Astro_6, Micro_4, etc...)
 gl = adata.var.gene_ids
 cog = "Cognitive Status" 
 adnc = "Overall AD neuropathological Change" 
